@@ -13,7 +13,7 @@ public class RetrieveTicketsID {
         int maxResults = 0;
         int startAt = 0;
         int issuesCount = 1;
-        int upperBound = 1000;;
+        int upperBound = 1000;
 
         do {
             maxResults = startAt + upperBound; //Only gets a max of 1000 at a time, so must do this multiple times if bugs >1000
